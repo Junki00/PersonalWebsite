@@ -4986,8 +4986,12 @@ input[type="button"].btn-block {
   justify-content: space-between;
 }
 
-.navbar-brand img {
-  background-color: ;
+.navbar-brand h3 {
+  color: #ff7a57;
+}
+
+.navbar-brand h3:hover {
+  color: #ff3d0b;
 }
 
 .navbar-brand {
@@ -12624,7 +12628,7 @@ pre {
 
 .header .container .infos .subtitle {
   margin-bottom: 0;
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 500;
   display: flex;
   justify-content: flex-start;
@@ -12632,6 +12636,7 @@ pre {
 
 .header .container .infos .subtitle .kanji1,
 .header .container .infos .subtitle .kanji2 {
+  color: #ff7a57;
   width: 74px;
   text-align: center
 }
